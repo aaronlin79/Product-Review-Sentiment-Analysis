@@ -1,9 +1,9 @@
-## Product-Review-Sentiment-Analysis
+# Product-Review-Sentiment-Analysis
 
-# Project Description
+## Project Description
 
-# Installation
+## Installation
 
-# Techniques
+## Techniques
 
-# Analysis
+## Analysis
