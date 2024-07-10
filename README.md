@@ -8,6 +8,8 @@
 
 ## Installation
 
+## Text Representation
+
 ## Techniques
 We utilized 1 supervised + 1 unsupervised learning technique to train our model throughout the project.
 
