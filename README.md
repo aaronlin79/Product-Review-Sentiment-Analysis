@@ -5,7 +5,7 @@
 > Authors: Aaron Lin, Banff Jiang, Cathy Wu, Darren Banh
 
 ## Project Description
-A transparent process of building a model that can identify and categorize sentiments of products in the Cell Phones & Accessories category of Amazon reviews.
+A transparent process of building a model that can identify and categorize sentiments of products in the Cell Phones & Accessories subcategory of Amazon reviews.
 
 > Note: The dimensions of the original dataset were reduced in order for it to be run it locally
 
