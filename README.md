@@ -25,6 +25,6 @@ We utilized 1 supervised + 1 unsupervised learning technique to train our model 
 ## Acknowledgements
 Credit for [data](https://nijianmo.github.io/amazon/): Jianmo Ni, UCSD
 
-**Justifying recommendations using distantly-labeled reviews and fined-grained aspects**
-Jianmo Ni, Jiacheng Li, Julian McAuley
+**Justifying recommendations using distantly-labeled reviews and fined-grained aspects**<br>
+Jianmo Ni, Jiacheng Li, Julian McAuley<br>
 *Empirical Methods in Natural Language Processing (EMNLP), 2019*
