@@ -23,7 +23,7 @@ A transparent process of building a model that can identify and categorize senti
 #### Usage:
    1. Run all cells in 'CS105 Final Project.ipynb' (for simplicity, the code has been compiled into a single cell)
    2. Parts of the model that can be modified:
-         - Dataset sample size (max_reviews is currently set to 1000, but be cautious about enlarging it too far, as the K-Nearest Neighbors model may be affected)
+         - Dataset sample size (max_reviews is currently set to 1,000, but be cautious about enlarging it too far, as the K-Nearest Neighbors model may be affected)
          - Word dictionaries for positive/negative sentiments
          - k value for K-Means Clustering
 
@@ -36,7 +36,7 @@ A transparent process of building a model that can identify and categorize senti
    6. Write all changes to FILE
 
 ## Data Preprocessing
-We limited the size of the dataset (originally ~ ) to 1000 observations in order to run the models locally
+We limited the size of the dataset (originally 10,000,000+ observations) to 1,000 observations in order to run the models locally
 
 ## Data Processing
 #### Text Representation
