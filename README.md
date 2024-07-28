@@ -38,8 +38,8 @@ A transparent process of building a model that can identify and categorize senti
          - Only kept periods to distinguish between sentences
    5. Converted to lowercase
          - For the sake of word dictionaries, we converted all letters to lowercase
-   6. Wrote all changes to _cleaned_reviews_file_
-         - Wrote to new files with each step, but final file that we input to the model is _cleaned_reviews_file_
+   6. Wrote all changes to *cleaned_reviews_file*
+         - Wrote to new files with each step, but final file that we input to the model is *cleaned_reviews_file*
 
 ## Data Preprocessing
 We limited the size of the dataset (originally 10,000,000+ observations) to 1,000 observations in order to run the models locally
