@@ -7,7 +7,7 @@
 ## Project Description
 A transparent process of building a model that can identify and categorize sentiments of products in the Cell Phones & Accessories subcategory of Amazon reviews.
 
-> Note: The dimensions of the original dataset were reduced in order for it to be run it locally
+> Note: Size of the original dataset was reduced in order for it to be run it locally
 
 ## Installation/Usage
 #### Installation:
@@ -27,7 +27,20 @@ A transparent process of building a model that can identify and categorize senti
          - Word dictionaries for positive/negative sentiments
          - k value for K-Means Clustering
 
-## Text Representation
+## Data Cleaning
+   1. Remove sections
+   2. Remove section titles
+   3. Remove stopwords
+   4. Remove punctuation
+   5. Convert to lowercase
+   6. Write all changes to FILE
+
+## Data Preprocessing
+We limited the size of the dataset (originally ~ ) to 1000 observations in order to run the models locally
+
+## Data Processing
+#### Text Representation
+
 
 ## Techniques
 We utilized 1 supervised + 1 unsupervised learning technique to train our model throughout the project.
