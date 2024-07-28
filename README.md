@@ -21,7 +21,7 @@ A transparent process of building a model that can identify and categorize senti
    5. If you see the files and folders load in, then you are good to go!
 
 #### Usage:
-   1. Run all cells in 'CS105 Final Project.ipynb' (for simplicity, the code has been compiled into a single cell)
+   1. Run all cells in *CS105 Final Project.ipynb* (for simplicity, the code has been compiled into a single cell)
    2. Parts of the model that can be modified:
          - Dataset sample size (max_reviews is currently set to 1,000, but be cautious about enlarging it too far, as the K-Nearest Neighbors model may be affected)
          - Word dictionaries for positive/negative sentiments
@@ -38,8 +38,8 @@ A transparent process of building a model that can identify and categorize senti
          - Only kept periods to distinguish between sentences
    5. Converted to lowercase
          - For the sake of word dictionaries, we converted all letters to lowercase
-   6. Wrote all changes to *cleaned_reviews_file*
-         - Wrote to new files with each step, but final file that we input to the model is *cleaned_reviews_file*
+   6. Wrote all changes to *cleaned_reviews.txt*
+         - Wrote to new files with each step, but final file that we input to the model is *cleaned_reviews.txt*
 
 ## Data Preprocessing
 We limited the size of the dataset (originally 10,000,000+ observations) to 1,000 observations in order to run the models locally
