@@ -21,6 +21,11 @@ A transparent process of building a model that can identify and categorize senti
    5. If you see the files and folders load in, then you are good to go!
 
 #### Usage:
+   1. Run all cells in 'CS105 Final Project.ipynb' (for simplicity, the code has been compiled into a single cell)
+   2. Parts of the model that can be modified:
+         - Dataset sample size (max_reviews is currently set to 1000, but be cautious about enlarging it too far, as the K-Nearest Neighbors model may be affected)
+         - Word dictionaries for positive/negative sentiments
+         - k value for K-Means Clustering
 
 ## Text Representation
 
