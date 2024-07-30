@@ -46,7 +46,10 @@ We limited the size of the dataset (originally 10,000,000+ observations) to 1,00
 
 ## Data Processing
 #### Text Representation
+##### Bag-of-Words (BoW)
+We opted for this method due to its straightforward implementation and its compatibility with our word dictionaries. Since we have removed stopwords and are prioritizing the presence of frequent terms, we can avoid elongated vectors and efficiently use the BoW model.
 
+##### Term Frequency-Inverse Document Frequency (TF-IDF)
 
 ## Techniques
 We utilized 1 supervised + 1 unsupervised learning technique to train our model throughout the project.
