@@ -50,6 +50,7 @@ We limited the size of the dataset (originally 10,000,000+ observations) to 1,00
 We opted for this method due to its straightforward implementation and its compatibility with our word dictionaries. Since we have removed stopwords and are prioritizing the presence of frequent terms, we can avoid elongated vectors and efficiently use the BoW model.
 
 <ins>Term Frequency-Inverse Document Frequency (TF-IDF):</ins>
+Although the uniqueness aspect of this method is not as applicable to our data, we found it to be a fitting complement to our BoW model and the removal of stopwords only enhances its application.
 
 ## Techniques
 We utilized 1 supervised + 1 unsupervised learning technique to train our model throughout the project.
