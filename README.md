@@ -49,7 +49,7 @@ We limited the size of the dataset (originally 10,000,000+ observations) to 1,00
 <ins>Bag-of-Words (BoW):</ins><br>
 We opted for this method due to its straightforward implementation and its compatibility with our word dictionaries. Since we have removed stopwords and are prioritizing the presence of frequent terms, we can avoid elongated vectors and efficiently use the BoW model.
 
-<ins>Term Frequency-Inverse Document Frequency (TF-IDF):</ins>
+<ins>Term Frequency-Inverse Document Frequency (TF-IDF):</ins><br>
 Although the uniqueness aspect of this method is not as applicable to our data, we found it to be a fitting complement to our BoW model and the removal of stopwords only enhances its application.
 
 ## Techniques
