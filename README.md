@@ -45,7 +45,7 @@ A transparent process of building a model that can identify and categorize senti
 We limited the size of the dataset (originally 10,000,000+ observations) to 1,000 observations in order to run the models locally
 
 ## Data Processing
-#### Text Representation
+#### Text Representation:
 <ins>Bag-of-Words (BoW):</ins><br>
 We opted for this method due to its straightforward implementation and its compatibility with our word dictionaries. Since we have removed stopwords and are prioritizing the presence of frequent terms, we can avoid elongated vectors and efficiently use the BoW model. We ended with a vector of length 3464.
 
