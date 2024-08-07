@@ -55,8 +55,8 @@ Although the uniqueness aspect of this method is not as applicable to our data, 
 ## Techniques
 We utilized 1 supervised + 1 unsupervised learning technique to train our model throughout the project.
 
-#### K-Nearest Neighbors (Supervised Technique):
-
+#### K-Nearest Neighbors (KNN) (Supervised Technique):
+Our model performs better at identifying positive reviews (Class 1) with a higher recall of 0.93 in comparison to negative reviews (Class 0) with a lower recall of 0.30. This indicates that the model is more effective at detecting positive sentiments than negative ones. Our overall accuracy is 67.16%, which is decent. For our F1-score, we are aiming for a value of 1, but instead received values of 0.42 and 0.77, which are not too poor. The imbalance in class support could be impacting the performance, since support is the number of actual occurrences of the classes, we can see that there is a disproportionate amount of positive reviews (greater amount) in comparison to negative reviews (lesser amount).
 
 #### K-Means Clustering (Unsupervised Technique):
 
