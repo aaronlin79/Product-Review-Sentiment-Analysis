@@ -60,6 +60,11 @@ Our model performs better at identifying positive reviews (Class 1) with a highe
 
 #### K-Means Clustering (Unsupervised Technique):
 
+<ins>Elbow Method:</ins><br>
+In order to determine the optimal number of clusters for K-Means Clustering, we created a function and utilized the elbow method. We coded it to calculate the sum of squares within clusters (given a range of potential cluster counts, which we set as 10) and plot a visual based off of the results. From our visual, we can see that the greatest difference, or the "elbow", appears to be around 4, 5, or 6 clusters. We ultimately settled with 4 clusters.
+
+
+
 ## Analysis
 
 ## Acknowledgements
