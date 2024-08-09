@@ -63,7 +63,7 @@ Our model performs better at identifying positive reviews (Class 1) with a highe
 <ins>Elbow Method:</ins><br>
 In order to determine the optimal number of clusters for K-Means Clustering, we created a function and utilized the elbow method. We coded it to calculate the sum of squares within clusters (given a range of potential cluster counts, which we set as 10) and plot a visual based off of the results. From our visual, we can see that the greatest difference, or the "elbow", appears to be around 4, 5, or 6 clusters. We ultimately settled with 4 clusters.
 
-
+Looking at the output, the dataframe columns represent terms from our TF-IDF matrix. For example, columns like "00", "01", and "10mb" are terms (words) present in the reviews. The values in these columns are the TF-IDF scores, indicating the importance of each term in the corresponding review. For instance, in the first review (0), the TF-IDF score for the term 11 is 0.000000, indicating that the term has little to no importance in this review. The last column, "Cluster", indicates the cluster label assigned to each review by the K-Means algorithm. In the output, the first few documents all belong to Cluster 1. This tells us that these documents share similar characteristics based on their TF-IDF values and are therefore grouped together by the algorithm.
 
 ## Analysis
 
