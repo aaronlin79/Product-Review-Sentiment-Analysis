@@ -67,6 +67,8 @@ Looking at the output, the dataframe columns represent terms from our TF-IDF mat
 
 ## Analysis
 
+From our results, we can see that a majority of the reviews appear to be neutral, which may be a sign that our model is inaccurate, given that most people tend to leave reviews when they have stronger positive or negative feelings towards products. However, from the other sentiments, we can see that there are marginally more positive reviews than negative ones. Another issue that our model may have experienced is an inaccurate representation of the sentiments given our dictionaries. Since we created dictionaries for positive and negative keywords, we may have failed to include a comprehensive set of vocabularies. Lastly, a problem we may have incurred was the misclassification of unique words. Throughout our data cleaning process, we tried our best to clean the data, but due to user error, some words were mistyped, and resulted in them being classified as unique words rather than being counted as a duplicate or stopword.
+
 ## Acknowledgements
 Credit for [data](https://nijianmo.github.io/amazon/): Jianmo Ni, UCSD
 
