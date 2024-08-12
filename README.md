@@ -1,5 +1,3 @@
-# README WILL BE COMPLETED ASAP
-
 # Product Review Sentiment Analysis
 
 > Authors: Aaron Lin, Banff Jiang, Cathy Wu, Darren Banh
